@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-A-Sketch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="toolbar">
+      <h1>Etch-A-Sketch</h1>
+      <div class="controls">
+        <label class="color-control" for="color-picker">
+          <span>Color</span>
+          <input id="color-picker" type="color" value="#2c6e49">
+        </label>
+        <button id="resize-grid" type="button">New Grid</button>
+        <button id="clear-grid" type="button">Clear</button>
+      </div>
+    </header>
+
+    <div id="grid" class="grid" aria-label="Sketch grid"></div>
+  </main>
+</body>
+</html>
