@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 200px;
+}
+.firstRow{
+    display: flex;
+    gap: 16px;
+}
+.secondRow{
+    display: flex;
+    gap: 16px;
+}
+.thirdRow{
+    display: flex;
+    gap: 16px;
+}
+.fourthRow{
+    display: flex;
+    gap: 16px;
+}
+.display{
+    border-width: 3px;
+    border-radius: 10px;
+    width: 685px;
+    height: 50px;
+    border-style: solid;
+}
+button{
+    width: 160px;
+    height: 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 19px;
+    background-color: rgb(211, 198, 167);
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(185, 163, 107);
+    transition: 0.4s;
+}
